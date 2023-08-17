@@ -32,3 +32,11 @@ Start a USSD session by sending a POST request to /ussd endpoint with a JSON pay
 Follow the USSD prompts to complete the registration process.
 Respond to the prompts by entering the corresponding numbers or text.
 Registration progress and user data are stored in the database.
+
+`Testing`
+  {
+    "sessionId": "kss23456701",
+    "phoneNumber": "9876543234565",
+    "input": "",
+    "newRequest": 1 //1 for a new request and 0 for a continuous request
+  }
